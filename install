@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+echo "Installing your stuff..."
+
+ln -sv ~/.dotfiles/zsh/.zshrc ~/.zshrc # Creates a link from original zshrc to your personal zshrc. 
