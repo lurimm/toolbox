@@ -1,0 +1,6 @@
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias disable-web-security="open -na Google\ Chrome --args --user-data-dir=/tmp/temporary-chrome-profile-dir --disable-web-security --disable-site-isolation-trials"
+alias slow-internet-npm-i="npm install --prefer-offline --no-audit --ignore-scripts"
+alias etc-hosts-file="code /etc/hosts"
+alias hyper-config="code ~/.hyper.js"
