@@ -1,1 +1,1 @@
-My toolbox for whatever maching I may use. 
+My toolbox for whatever machine I may use. 
