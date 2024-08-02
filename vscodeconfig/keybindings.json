@@ -1,0 +1,148 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+up",
+    "command": "lineJumper.moveUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "-lineJumper.moveUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "lineJumper.moveDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "-lineJumper.moveDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "extension.advancedOpenFile"
+  },
+  {
+    "key": "ctrl+x ctrl+f",
+    "command": "-extension.advancedOpenFile"
+  },
+  {
+    "key": "cmd+y",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+=",
+    "command": "extension.customWindowZoomIn"
+  },
+  {
+    "key": "cmd+9",
+    "command": "-extension.customWindowZoomIn"
+  },
+  {
+    "key": "cmd+-",
+    "command": "extension.customWindowZoomOut"
+  },
+  {
+    "key": "cmd+8",
+    "command": "-extension.customWindowZoomOut"
+  },
+  {
+    "key": "cmd+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "cmd+-",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "shift+cmd+s",
+    "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "ctrl+s \\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+s -",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+s e",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "cmd+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+s t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+s t",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "extension.vim_cmd+alt+down",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-extension.vim_cmd+alt+down",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "extension.vim_cmd+alt+up",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-extension.vim_cmd+alt+up",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+s w",
+    "command": "workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.panel.chat.view.copilot.focus"
+  },
+  {
+    "key": "space c",
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.closeAllEditors",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+h",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift+l",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  }
+]
